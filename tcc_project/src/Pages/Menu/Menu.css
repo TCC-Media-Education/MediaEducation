@@ -1,0 +1,14 @@
+.main-div-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.main-div-menu #left-side-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-div-menu #custom-button-main-div {
+    margin-bottom: 10px;
+}

@@ -3,7 +3,6 @@ import Menu from './Pages/Menu/Menu'
 import Game from './Pages/Game/Game'
 import Credits from './Pages/Credits/Credits'
 import Tutorial from './Pages/Tutorial/Tutorial'
-import './App.css'
 import {BrowserRouter as Router, Routes, Route}  from 'react-router-dom'
 import Plot from './Pages/Plot/Plot'
 
