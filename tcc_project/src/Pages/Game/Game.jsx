@@ -1,9 +1,10 @@
+import Tablet from "./Tablet/Tablet"
 
 function Game() {
 
     return (
         <div>
-            Game
+            <Tablet/>
         </div>
     )
 }

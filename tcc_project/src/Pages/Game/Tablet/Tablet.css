@@ -1,0 +1,59 @@
+.all-screen-div {
+    min-height: 100vh;
+}
+
+.main-tablet-div {
+    position: fixed;
+    margin-left: 15%;
+    margin-top: 5%;
+    width: 70%;
+    height: 800px;
+    background-color: black;
+    border-radius: 24px;
+
+}
+
+.main-tablet-div #tablet-elements {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.main-tablet-div #screen {
+    background-color: white;
+    margin-left: 40px;
+    margin-top: 32px;
+    width: 85%;
+    height: 735px;
+}
+
+.main-tablet-div #tablet-button {
+    background-color: white;
+    height: 50px;
+    margin-top: 330px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.main-tablet-div #source-date-infos {
+    display: flex;
+    flex-direction: row;
+    gap: 24px
+}
+
+.main-tablet-div #image-article-infos {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.main-tablet-div #true-button {
+    margin-left: 24px;
+}
+
+.main-tablet-div .buttons {
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
