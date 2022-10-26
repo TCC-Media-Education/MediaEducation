@@ -1,0 +1,48 @@
+[
+    {
+        "name":"Fumar Faz Bem a Saúde",
+        "source":"www.qualicorp.com.br",
+        "date":"10/10/2011",
+        "text":
+        "Fumar é bom a saúde desde que seja feito moderadamente com 18 ou mais anos.",
+        "image":"",
+        "fakeNews": true,
+        "reason":"Errado. Fumar faz mal a saúde, especialmente para crianças. Adultos também podem ter doenças se fumarem demais."
+    },
+    {
+        "name":"Faça Exercício Regularmente.",
+        "source":"www.fpcardiologia.pt",
+        "date":"28/02/2012",
+        "text":"Exercício é muito importante para a saúde. Diminui riscos de doenças, deixa a pessoa mais forte, etc.",
+        "image":"",
+        "fakeNews":false,
+        "reason":"Correto. Exercício físico diminui stress, riscos de doenças, deixa a pessoa mais forte e etc."
+    },
+    {
+        "name":"Porto Alegre terá inverno com Frio e Neve.",
+        "source":"www.climatempo.com.br",
+        "date":"08/10/2022",
+        "text":"Pela primeira vez, está previsto neve em Porto Alegre no inverno desse ano.",
+        "image":"",
+        "fakeNews":true,
+        "reason":"Errado. Porto Alegre nunca tem previsão de neve."
+    },
+    {
+        "name":"Refrigerante Dá Energia!",
+        "source":"brasilescola.uol.com.br",
+        "date":"18/09/2018",
+        "text":"Refrigerante dá energia para tudo! Esporte, exercício físico e deixa as pessoas bem mais inteligentes.",
+        "image":"",
+        "fakeNews":true,
+        "reason":"Errado. Refrigerante em excesso não dá energia e dá problemas de saúde ao tomar em excesso como obesidade."
+    },
+    {
+        "name":"Dormir demais faz crescer mais",
+        "source":"www.minhavida.com.br",
+        "date":"17/08/2020",
+        "text":"Se dormir ajuda a crescer então adivinha só dormir o tempo inteiro. Durma o máximo que puder se quiser crescer o suficiente.",
+        "image":"",
+        "fakeNews":true,
+        "reason":"Dormir ajuda a crescer mas não em excesso. Dormir demais pode dar problemas como depressão."
+    }
+]
