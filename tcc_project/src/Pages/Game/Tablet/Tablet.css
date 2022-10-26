@@ -4,9 +4,9 @@
 
 .main-tablet-div {
     position: fixed;
-    margin-left: 15%;
+    margin-left: 10%;
     margin-top: 5%;
-    width: 70%;
+    width: 80%;
     height: 800px;
     background-color: black;
     border-radius: 24px;
@@ -16,7 +16,21 @@
 .main-tablet-div #tablet-elements {
     display: flex;
     flex-direction: row;
-    gap: 24px;
+    gap: 20px;
+}
+
+.main-tablet-div .upper-infos {
+    border: solid;
+    padding: 8px;
+    border-radius: 16px;
+}
+
+.main-tablet-div #main-text {
+    border: solid;
+    height: 200px;
+    width: 35%;
+    border-radius: 8px;
+    padding: 5px;
 }
 
 .main-tablet-div #screen {
@@ -38,17 +52,31 @@
 .main-tablet-div #source-date-infos {
     display: flex;
     flex-direction: row;
-    gap: 24px
+    gap: 24px;
+    justify-content: space-around;
+    margin-bottom: 150px;
 }
 
 .main-tablet-div #image-article-infos {
     display: flex;
     flex-direction: row;
     gap: 24px;
+    justify-content: space-around;
+    margin-bottom: 150px;
 }
 
 .main-tablet-div #true-button {
-    margin-left: 24px;
+    margin-left: 20%;
+}
+
+.main-tablet-div #false-button {
+    margin-left: 20%;
+}
+
+.main-tablet-div #true-false-buttons {
+    justify-content: center;
+    align-items: center;
+    display: block;
 }
 
 .main-tablet-div .buttons {
@@ -56,4 +84,31 @@
     color: white;
     border-radius: 8px;
     border: none;
+    justify-content: space-evenly;
+    width: 20%;
+    height: 30px;
+}
+
+.main-tablet-div .responsive {
+    transform: none !important;
+}
+
+.main-tablet-div #nav-view {
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    transition: 0.8s;
+    transform: translateX(-100vh);
+    background-color: #F6F6F6;
+    flex-direction: column;
+    border: solid;
+    border-color: var(--darkGrayCaravela);
+    border-width: 1px;
 }
