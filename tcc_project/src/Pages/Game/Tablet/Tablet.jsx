@@ -5,12 +5,15 @@ import "./Tablet.css"
 
 export default function Tablet() {
 
-    const [articles, setArtciles] = useState()
+    const [articles, setArtciles] = useState([])
     const [currentArticle, setCurrentArticle] = useState({})
     const [articleHasImage, setArticleHasImage] = useState(false)
 
     const [hintCounter, setHintCounter] = useState(2)
-    const [score, setSCore] = useState()
+    const [score, setSCore] = useState(0)
+    const [roundCount, setRoundCount] = useState(1)
+
+
 
     const navRef = useRef()
 
@@ -29,22 +32,36 @@ export default function Tablet() {
        
     }, [])
 
+    function pickNewArticle() {
+        const randomIndex = Math.floor(Math.random() * articles.lenght);
+        setCurrentArticle(articles[randomIndex])
+        if(articles[randomIndex].image != "") {
+            // set article image
+        }
+        var newArticles = articles
+        newArticles.splice(randomIndex, 1)
+        setArtciles(newArticles)
+    }
+
     
 
     const handleFalseClick = () => {
-        console.log("false")
-        // change score 
-        // change article
+        if(currentArticle.fakeNews) {
+            setSCore(score + 10)
+        } 
+        pickNewArticle()
 
     }
 
     const handleTrueClick = () => {
-        console.log("true")
-        // change score 
-        // change article
+        if(!currentArticle.fakeNews) {
+            setSCore(score + 10)
+        }
+        pickNewArticle()
     }
 
     const showNavBar = () => {
+        setHintCounter(hintCounter - 1)
         navRef.current.classList.toggle("responsive")
       }
 
