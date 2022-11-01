@@ -93,6 +93,10 @@
     transform: none !important;
 }
 
+.main-tablet-div #hint-button {
+    margin-top: 16px;
+}
+
 .main-tablet-div #nav-view {
     z-index: 10;
     position: fixed;

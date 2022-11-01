@@ -17,33 +17,52 @@ export default function Tablet() {
 
     const navRef = useRef()
 
+    function randomIntFromInterval(min, max) { // min and max included 
+        return Math.floor(Math.random() * (max - min + 1) + min)
+      }
+
     useEffect(() => {
         // read articles file
         const reader = new FileReader()
         let allArticles = reader.readFile()
-        // choose a random article and remove it from allArtciles then set state
-        setArtciles(allArticles) 
 
+        
         // choose a random firts article
-        let mockArticle = new Article("name", "source", "11/11/11", "this is the article's main text", "", true, "lalala")
+        const randomIndex = randomIntFromInterval(0, allArticles.length)
 
-        setCurrentArticle(mockArticle)
-        // if has image set the image
+        setCurrentArticle(allArticles[randomIndex])
+
+
+        if(allArticles[randomIndex].image == "") {
+            setArticleHasImage(false)
+        } else {
+            setArticleHasImage(true)
+        }
+
+        // remove article that was picked first and set remaining articles
+        allArticles.splice(randomIndex, 1)
+        setArtciles(allArticles)
+        
        
     }, [])
 
+
     function pickNewArticle() {
-        const randomIndex = Math.floor(Math.random() * articles.lenght);
-        setCurrentArticle(articles[randomIndex])
-        if(articles[randomIndex].image != "") {
-            // set article image
+        if(articles.length > 0) {
+            const randomIndex = randomIntFromInterval(0, articles.length)
+            setCurrentArticle(articles[randomIndex])
+            if(articles[randomIndex].image != "") {
+                setArticleHasImage(true)
+            } else {
+                setArticleHasImage(false)
+            }
+            var newArticles = articles
+            newArticles.splice(randomIndex, 1)
+            setArtciles(newArticles)
         }
-        var newArticles = articles
-        newArticles.splice(randomIndex, 1)
-        setArtciles(newArticles)
+        
     }
 
-    
 
     const handleFalseClick = () => {
         if(currentArticle.fakeNews) {
@@ -61,8 +80,11 @@ export default function Tablet() {
     }
 
     const showNavBar = () => {
-        setHintCounter(hintCounter - 1)
-        navRef.current.classList.toggle("responsive")
+        if(hintCounter > 0) {
+            setHintCounter(hintCounter - 1)
+            navRef.current.classList.toggle("responsive")
+        }
+        
       }
 
     return (
@@ -77,7 +99,7 @@ export default function Tablet() {
                         <div id="source-date-infos">
                             <p className="upper-infos">{currentArticle.source}</p>
                             <p className="upper-infos">{currentArticle.date}</p>
-                            <button onClick={showNavBar}>
+                            <button id="hint-button" onClick={showNavBar}>
                                 quantidade de informações disponiveis: {hintCounter}
                             </button>
                         </div>
