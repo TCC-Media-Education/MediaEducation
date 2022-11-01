@@ -17,7 +17,7 @@ export default function Tablet() {
 
     const navRef = useRef()
 
-    function randomIntFromInterval(min, max) { // min and max included 
+    function randomIntFromInterval(min, max) { 
         return Math.floor(Math.random() * (max - min + 1) + min)
       }
 
@@ -69,7 +69,7 @@ export default function Tablet() {
             setSCore(score + 10)
         } 
         pickNewArticle()
-
+        setRoundCount(roundCount + 1)
     }
 
     const handleTrueClick = () => {
@@ -77,6 +77,7 @@ export default function Tablet() {
             setSCore(score + 10)
         }
         pickNewArticle()
+        setRoundCount(roundCount + 1)
     }
 
     const showNavBar = () => {
