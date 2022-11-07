@@ -1,5 +1,30 @@
 .plot-main-div {
+    padding-top: 10%;
     display: flex;
     flex-direction: row;
     gap: 30px;
+    height: 100vh;
+    background-color: rgb(128, 222, 159);
+}
+
+.plot-main-div #title {
+    text-align: center;
+}
+
+.plot-main-div #text {
+    border-style: solid;
+    border-width: 6px;
+    border-radius: 16px;
+    margin-left: 16px;
+    max-height: 60vh;
+    background-color: white;
+}
+
+.plot-main-div #text-style {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.plot-main-div #image {
+    padding-right: 16px;
 }

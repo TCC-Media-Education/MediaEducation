@@ -1,0 +1,12 @@
+.custom-button-main-div .menu-button {
+    height: 36px;
+    font-size: 26px;
+    border-radius: 8px;
+    margin: 16px;
+    border: none;
+    padding: 2px 8px;
+    height: 50px;
+    width: 250px;
+    background-color: darkseagreen;
+    z-index: 10;
+}

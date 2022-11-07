@@ -6,8 +6,8 @@ function Menu() {
 
     return(
         <div className="main-div-menu">
-            <div id="left-side-menu">
-                <h1>Nome do Jogo</h1>
+            <div id="menu">
+                <p id="game-name">Nome do Jogo</p>
                 <CustomButton title="Jogar" navigate="jogo"/>
                 <CustomButton title="Como Jogar" navigate="tutorial"/>
                 <CustomButton title="História" navigate="historia"/>
@@ -17,7 +17,7 @@ function Menu() {
             
             
 
-            <img src={menuImage} />
+            {/* <img id="image" src={menuImage} /> */}
         </div>
     )
 }

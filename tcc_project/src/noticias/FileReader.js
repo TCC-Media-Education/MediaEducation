@@ -7,10 +7,10 @@ export default class FileReader {
 
 
     readFile() {
-        var articles = [Article]
+        var articles = []
 
         file.map((fileArtcile) => {
-            const article = new Article(fileArtcile.name, fileArtcile.source, fileArtcile.date, fileArtcile.text, fileArtcile.image, fileArtcile.fakeNews, fileArtcile.reason )
+            const article = new Article(fileArtcile.name, fileArtcile.source, fileArtcile.date, fileArtcile.text, fileArtcile.image, fileArtcile.fakeNews, fileArtcile.reason, fileArtcile.difficulty )
             articles.push(article)
         })
         
