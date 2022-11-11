@@ -1,30 +1,45 @@
 .plot-main-div {
-    padding-top: 10%;
     display: flex;
     flex-direction: row;
-    gap: 30px;
     height: 100vh;
-    background-color: rgb(128, 222, 159);
+    width: 100%;
+    background-image: linear-gradient(to bottom, #5cdb95, #50ce94, #45c192, #3eb48e, #39a78a, #39a78a, #39a78a, #39a78a, #3eb48e, #45c192, #50ce94, #5cdb95);
 }
 
 .plot-main-div #title {
     text-align: center;
+    color: var(--paletteWhite);
+    font-size: 50px;
 }
 
 .plot-main-div #text {
-    border-style: solid;
-    border-width: 6px;
-    border-radius: 16px;
-    margin-left: 16px;
-    max-height: 60vh;
-    background-color: white;
+    margin-top: 140px;
+    /* background-color: var(--paletteDarkGreen); */
+    width: 45%;
+    font-size: 32px;
+    /* border: solid; */
 }
 
 .plot-main-div #text-style {
-    margin-left: 16px;
-    margin-right: 16px;
+    margin: 16px 24px;
+    border: solid;
+    border-radius: 16px;
+    border-color: var(--paletteBlue);
+    border-width: 16px;
+    /* background-color: var(--paletteDarkGreen); */
 }
 
 .plot-main-div #image {
-    padding-right: 16px;
+    width: 55%;
+}
+
+.plot-main-div #plot-image {
+    height: 100%;
+    width: 100%;
+}
+
+.plot-main-div #plot-text {
+    color: var(--paletteWhite);
+    margin: 0px 16px;
+    margin-bottom: 40px;
 }

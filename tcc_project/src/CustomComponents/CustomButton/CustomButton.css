@@ -1,12 +1,24 @@
 .custom-button-main-div .menu-button {
     height: 36px;
-    font-size: 26px;
+    font-size: 32px;
     border-radius: 8px;
     margin: 16px;
     border: none;
     padding: 2px 8px;
-    height: 50px;
-    width: 250px;
-    background-color: darkseagreen;
+    height: 60px;
+    width: 60%;
     z-index: 10;
+    color: var(--paletteWhite);
+}
+
+.custom-button-main-div #button-green {
+    background-color: var(--paletteDarkGreen);
+}
+
+.custom-button-main-div #button-blue {
+    background-color: var(--paletteBlue);
+}
+
+.custom-button-main-div .menu-button:hover {
+    opacity: 0.8;
 }

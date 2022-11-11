@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@500&display=swap');
+
+:root {
+    --paletteBlue: #05386B;
+    --paletteDarkGreen: #379683;
+    --paletteGreen: #5CDB95;
+    --paletteLightGreen: #8EE4AF;
+    --paletteWhite: #EDF5E1;
+    --paletteLightBlue: #15B7BE;
+  }
+
+  p, button, h1, h2, h3 {
+    font-family: 'Asap', sans-serif;
+  }
+

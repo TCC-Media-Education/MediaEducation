@@ -1,0 +1,8 @@
+{
+    "labels": {
+        "amazing": "UAU, você acertou todas as perguntas!",
+        "great": "Você quase acertou todas as perguntas! Quem sabe tentando mais uma vez você não acerta todas!",
+        "medium":"Continue Assim! Logo você vai acertar todas!",
+        "needPractice": "Continue praticando! Com a prática se atinge a perfeição!"
+    }
+}

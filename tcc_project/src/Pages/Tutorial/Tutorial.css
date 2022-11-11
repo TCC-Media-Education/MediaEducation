@@ -1,0 +1,57 @@
+.tutorial-main-div {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--paletteLightGreen);
+    position: absolute;
+}
+
+.tutorial-main-div #main-container {
+    margin: 24px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border: solid;
+    height: 80%;
+    border-radius: 16px;
+    background-color: var(--paletteWhite);
+    margin-top: 150px;
+}
+
+.tutorial-main-div #title-label {
+    font-size: 48px;
+}
+
+.tutorial-main-div #main-text-label {
+    font-size: 35px;
+    margin: 8px 36px;
+}
+
+.tutorial-main-div #game-example-image {
+    width: 40%;
+    height: 66%;
+    border-radius: 24px;
+}
+
+.tutorial-main-div #bottom-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content:space-evenly; */
+    height: 65%;
+    width: 100%;
+    gap: 24px;
+}
+
+.tutorial-main-div #main-button {
+    height: 25%;
+    width: 40%;
+    border-radius: 24px;
+    border: none;
+    background-image: linear-gradient(to right, #5cdb95, #4cca93, #40b990, #39a78a, #379683);
+    font-size: 35px;
+}
+
+.tutorial-main-div #main-button:hover {
+    cursor: pointer;
+}

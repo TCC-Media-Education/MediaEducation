@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    padding: 0;
 }
 
 .main-div-menu button:hover {
@@ -7,36 +8,122 @@ body {
 }
 
 .main-div-menu #game-name {
-    margin: 0;
-    padding-top: 48px;
-    padding-bottom: 100px;
-    font-size: 70px;
+    font-size: 80px;
+    text-align: center;
+    color: var(--paletteWhite);
+    font-weight: bold;
+    margin: 0 32px;
 }
 
 .main-div-menu {
-    background: linear-gradient(white, lightGreen);
-    padding: 0;
-    margin: 0;
     height: 100vh;
-}
-
-.main-div-menu #image {
-    width: 600px;
-    height: 600px;
-    position: relative;
-    top: calc(50vh - (/* height */600px / 2));
-    left: calc(50vw - (/* width */600px / 2)); 
-    z-index: 1;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, #5cdb95, #00b5a6, #008ca8, #006294, #05386b);
 }
 
 .main-div-menu #menu {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: linear-gradient(to bottom, #5cdb95, #67dd9a, #71df9e, #7ae0a3, #83e2a8, #66d5ab, #4ac8ad, #2cbbae, #009baa, #007a9e, #005989, #05386b);
+}
+
+.main-div-menu #book-image-div {
+    /* background-color: var(--paletteBlue); */
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+}
+
+.main-div-menu #book-image {
+    width: 90%;
+    border-radius: 24px;
+    margin: 0 auto;
+    height: auto;
+}
+
+.main-div-menu #book-image:hover {
+    cursor: pointer;
+}
+
+.main-div-menu #book-image-label {
+    font-size: 48px;
+    color: var(--paletteWhite);
+}
+
+.main-div-menu #menu-buttons {
+    /* background-image: linear-gradient(to bottom, #5cdb95, #00b5a6, #008ca8, #006294, #05386b); */
+    width: 100%;
     text-align: center;
+    height: 80%;
+}
+
+.main-div-menu #school-image-div {
+    width: 30%;
+}
+
+.main-div-menu #school-image {
+    width: 65%;
+    height: 80%;
+    object-fit:fill;
+}
+
+.main-div-menu #book-image-flex-div {
+    width: 45%;
+    text-align: center;
+    margin: auto;
+}
+
+.main-div-menu #book-image-label-div {
+    width: 55%;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+}
+
+.main-div-menu #game-name-div {
+    display: flex;
+    height: 30%;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-div-menu #menu-buttons-special {
+    height: 70%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    gap: 16px;
+}
+
+.main-div-menu #buttons-images-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 32px;
+}
+
+.main-div-menu #bottom-info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 24px;
+}
+
+.main-div-menu #extra-info {
+    /* background-color: var(--paletteBlue); */
+    width: 40%;
+}
+
+.main-div-menu #world-image {
+    width: 90%;
+    height: 85%;
 }
 
 
-.main-div-menu #custom-button-main-div {
-    position: absolute;
-    top: 0;
-    margin-bottom: 10px;
-    z-index: 2;
-}

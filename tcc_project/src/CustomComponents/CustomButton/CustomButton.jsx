@@ -11,7 +11,7 @@ export default function CustomButton(props) {
 
     return (
         <div className="custom-button-main-div">
-            <button className="menu-button" onClick={handleClick}>
+            <button className="menu-button" onClick={handleClick} id={"button-" + props.color}>
                 {props.title}
             </button>
         </div>

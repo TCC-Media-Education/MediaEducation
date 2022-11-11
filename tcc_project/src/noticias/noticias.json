@@ -6,18 +6,16 @@
         "text":"Fumar é bom a saúde desde que seja feito moderadamente com 18 ou mais anos.",
         "image":"",
         "fakeNews":true,
-        "reason":"Fumar faz mal a saúde, especialmente para crianças. Adultos também podem ter doenças se fumarem demais.",
-        "difficulty": "easy"
+        "reason":"Fumar faz mal a saúde, especialmente para crianças. Adultos também podem ter doenças se fumarem demais."
     },
     {
         "name":"Faça Exercício Regularmente.",
         "source":"www.fpcardiologia.pt",
         "date":"28/02/2012",
-        "text":"Exercício é muito importante para a saúde. Diminui riscos de doenças, deixa a pessoa mais forte, etc.",
+        "text":"Exercício é muito importante para a saúde. Diminui riscos de doenças e deixa a pessoa mais forte.",
         "image":"exercicio.jpg",
         "fakeNews":false,
-        "reason":"Exercício físico diminui stress, riscos de doenças, deixa a pessoa mais forte e etc.",
-        "difficulty": "easy"
+        "reason":"Exercício físico diminui stress, riscos de doenças, deixa a pessoa mais forte e etc."
     },
     {
         "name":"Porto Alegre terá inverno com Frio e Neve.",
@@ -26,8 +24,7 @@
         "text":"Pela primeira vez, está previsto neve em Porto Alegre no inverno desse ano.",
         "image":"bonecoDeNeve.jpg",
         "fakeNews":true,
-        "reason":"Porto Alegre nunca tem previsão de neve.",
-        "difficulty": "medium"
+        "reason":"Porto Alegre nunca tem previsão de neve."
     },
     {
         "name":"Refrigerante Dá Energia!",
@@ -36,8 +33,7 @@
         "text":"Refrigerante dá energia para tudo! Esporte, exercício físico e deixa as pessoas bem mais inteligentes.",
         "image":"",
         "fakeNews":true,
-        "reason":"Refrigerante em excesso não dá energia e dá problemas de saúde como obesidade.",
-        "difficulty": "medium"
+        "reason":"Refrigerante em excesso não dá energia e dá problemas de saúde como obesidade."
     },
     {
         "name":"Dormir demais faz crescer mais",
@@ -46,8 +42,7 @@
         "text":"Se dormir ajuda a crescer então adivinha só dormir o tempo inteiro. Durma o máximo que puder se quiser crescer o suficiente.",
         "image":"",
         "fakeNews":true,
-        "reason":"Dormir ajuda a crescer mas não em excesso. Dormir demais pode dar problemas como depressão.",
-        "difficulty": "hard"
+        "reason":"Dormir ajuda a crescer mas não em excesso. Dormir demais pode dar problemas como depressão."
     },
     {
         "name":"Você só precisa escovar os dentes uma vez por dia",
@@ -56,7 +51,42 @@
         "text":"Escovar os dentes uma vez por dia é o suficiente para manter a saúde da boca.",
         "image":"",
         "fakeNews":true,
-        "reason":"É recomendado que se escove os dentes 3 vezes ao dia.",
-        "difficulty": "hard"
+        "reason":"É recomendado que se escove os dentes 3 vezes ao dia."
+    },
+    {
+        "name":"Comer frituras faz bem a saude",
+        "source":"www.minhavida.com.br",
+        "date":"17/08/2020",
+        "text":"Comer frituras faz bem a saúde.",
+        "image":"",
+        "fakeNews":true,
+        "reason":"Devemos evitar frituras sempre que possível."
+    },
+    {
+        "name":"Quanto mais doces eu como mais saudável ficam meus dentes",
+        "source":"www.minhavida.com.br",
+        "date":"17/08/2020",
+        "text":"Quanto mais doces eu como mais saudável ficam meus dentes.",
+        "image":"",
+        "fakeNews":true,
+        "reason":"Alimentos que contém açucar fazem mal para os dentes."
+    },
+    {
+        "name":"Jogar video game antes de dormir faz bem e não prejudica o sono",
+        "source":"www.minhavida.com.br",
+        "date":"17/08/2020",
+        "text":"Jogar video game antes de dormir faz bem e não prejudica o sono.",
+        "image":"",
+        "fakeNews":true,
+        "reason":"O ideal é parar com as telas pelo menos 30 minutos antes de dormir."
+    },
+    {
+        "name":"Se você estiver gripado deve ir a aula com máscara.",
+        "source":"www.minhavida.com.br",
+        "date":"17/08/2020",
+        "text":"Se você estiver gripado deve ir a aula com máscara.",
+        "image":"",
+        "fakeNews":false,
+        "reason":"A máscara sempre ajuda a conter os vírus que são espalhados pelo ar, em países como o Japão é comum o uso de máscara quando se está gripado."
     }
 ]

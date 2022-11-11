@@ -1,10 +1,10 @@
-import Tablet from "./Tablet/Tablet"
+import Book from "./Book/Book"
 
 function Game() {
 
     return (
         <div>
-            <Tablet/>
+            <Book/>
         </div>
     )
 }

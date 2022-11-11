@@ -1,19 +1,25 @@
 import "./Plot.css"
 import plotImage from "../../assets/Plot.jpg"
+import CustomReturnPageButton from "../../CustomComponents/CustomReturnPageButton/CustomReturnPageButton"
 
 export default function Plot() {
 
     return (
         <div className="plot-main-div">
+            <CustomReturnPageButton/>
             <div id="text">
                 <div id="text-style">
-                    <h1 id="title">Enredo do jogo</h1>
-                    <h2>Depois de ensinar os alunos a identificar as fake news através da aplicação de uma série de perguntas, a professora dá mais uma atividade:
-                    analisar e classificar as notícias entregues como verdadeiras ou falsas.</h2>
+                    <p id="title">Enredo do jogo</p>
+                    <p id="plot-text">
+                        O jogo possui uma sequência de 10 desafios (notícias e/ou fatos) onde o/a jogador/a deve avaliar se estas informações são verdadeiras ou falsas.
+                        À cada acerto são computados 10 pontos se o/a jogador/a acerta a etapa sem utilizar as dicas disponíveis. Caso as utilize a pontuação é de 5 pontos.
+                        Ao final do jogo o/a jogador recebe um certificado de especialista no combate às fake news.  
+                        Importante: o jogo necessita da leitura prévia do livro e as atividades devem ser avaliadas seguindo as dicas contidas na estória.
+                    </p>
                 </div>
             </div>
             <div id="image">
-                <img src={plotImage}/>
+                <img src={plotImage} id="plot-image"/>
             </div>
         </div>
     )
