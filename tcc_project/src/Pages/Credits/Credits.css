@@ -15,15 +15,22 @@
 .credits-main-div #credits-label {
     text-align: center;
     font-size: 72px;
-    color: var(--paletteWhite);
+    color: black;
     width: 30%;
     margin-bottom: 0;
 }
 
 .credits-main-div .credits-text {
-    font-size: 34px;
+    font-size: 30px;
     margin: 16px 40px;
-    color: var(--paletteWhite);
+    color: black;
+    text-align: center;
+}
+
+.credits-main-div .credits-text-smaller {
+    font-size: 27px;
+    margin: 16px 40px;
+    color: black;
     text-align: center;
 }
 

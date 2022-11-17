@@ -36,7 +36,7 @@ export default function RewardCard(props) {
                     </div>
                     <div id="score-div">
                         <p id="score-label">
-                            Sua pontuação foi:  {props.score}
+                            Sua pontuação foi:  {props.score} / 100
                         </p>
                     </div>
                     <div id="reward-text">

@@ -2,6 +2,7 @@ import { getDatabase, ref, DataSnapshot, child, get, set } from "firebase/databa
 
 
 import app from "../firebase"
+import { Article } from "../Models/Article"
 
 const database = getDatabase(app)
 
@@ -14,8 +15,11 @@ export class ArticleService {
     
 
     async getArticles() {
+        var articles = Article
         await get(child(dbRef, "Articles")).then((allArticles) => {
-            console.log(allArticles.val())
+            articles = allArticles.val()
+            return articles
         })
+        return articles
     }
 }

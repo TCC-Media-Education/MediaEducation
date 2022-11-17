@@ -17,6 +17,7 @@
 
 .custom-button-main-div #button-blue {
     background-color: var(--paletteBlue);
+    height: 72px;
 }
 
 .custom-button-main-div .menu-button:hover {

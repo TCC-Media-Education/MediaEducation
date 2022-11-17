@@ -78,7 +78,7 @@
     border: none;
 }
 .all-screen-div #false-button {
-    background-color: lightcoral;
+    background-color: red;
 }
 
 .all-screen-div #true-button {

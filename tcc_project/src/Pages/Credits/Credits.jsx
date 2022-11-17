@@ -13,8 +13,8 @@ function Credits() {
                     <p id="credits-label">Créditos</p>
                     <div id="content">
                         <div>
-                            <p className="credits-text">
-                                Este jogo, vinculado ao ebook intitulado  “Nem tudo que vejo e ouço é verdade! “de autoria de Raiza Roznieski e Lucia Giraffa, abordando o tema da Educação Midiática, usando como exemplo a questão fake news.
+                            <p className="credits-text-smaller">
+                                Este jogo, vinculado ao ebook intitulado  “Nem tudo que vejo e ouço é verdade! “de autoria de Raiza Roznieski e Lucia Giraffa, abordando o tema da Educação Midiática, usando como exemplo a questão fake news.<br/>
                                 O jogo foi desenvolvido na disciplina de Trabalho de Conclusão de Curso (TCC), Bacharelado em Ciência da Computação da Escola Politécnica – PUCRS, por:
                             </p>
                             <p className="credits-text">
@@ -26,17 +26,19 @@ function Credits() {
                             <p className="credits-text">
                             Orientaçao: Profa. Dra. Lucia Giraffa
                             </p>
-                            <p className="credits-text">
-                            Novembro de 2022
-                            </p>
                             <div id="special-thanks">
                                 <p className="credits-text" id="text-center">
                                     Agradecimentos:
                                 </p>
                                 <p className="credits-text" id="text-center">
-                                    Profa. Margarete Fialho do Santos (consultora do projeto)
+                                    Profa. Margarete Fialho dos Santos (consultora do projeto)
+                                </p>
+                                <p className="credits-text">Ilustrações de Lúcia Giraffa</p>
+                                <p className="credits-text">
+                                    Novembro de 2022
                                 </p>
                             </div>
+                            
                         </div>
                     </div>
                 </div>

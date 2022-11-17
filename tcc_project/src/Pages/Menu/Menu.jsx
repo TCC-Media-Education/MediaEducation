@@ -8,7 +8,7 @@ import worldImage from "../../assets/BookWorldDraw.png"
 function Menu() {
 
     const handleImageClick = () => {
-        window.open("https://www.editora.vecher.com.br/index.php/vel/catalog/book/16", "_blank")
+        window.open("https://www.editora.vecher.com.br/index.php/vel/catalog/view/16/16/226", "_blank")
     }
 
     return(
@@ -30,7 +30,6 @@ function Menu() {
                         </div>
                         <div id="menu-buttons-special">
                             <CustomButton title="História" navigate="historia" color="green"/>
-                            <CustomButton title="Como Jogar" navigate="tutorial" color="green"/>
                             <CustomButton title="Jogar" navigate="jogo" color="blue"/>
                             <CustomButton title="Créditos" navigate="creditos" color="green"/>
                         </div>
