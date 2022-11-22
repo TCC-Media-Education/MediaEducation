@@ -42,9 +42,6 @@ export default function Book() {
         }
     }
 
-    
-
-
     useEffect(() => {
         const reader = new FileReader()
         let allArticles = reader.readFile()
@@ -84,7 +81,8 @@ export default function Book() {
 
     function nextRound(missed) {
         const thisStreak = missed ? correctStreak : correctStreak + 1
-        if(articles.length == 0) {
+        console.log(roundCount)
+        if(roundCount == 10) {
             if(missed) {
                 setRewardText(getRewardText(correctCounter))
             } else {
@@ -93,7 +91,6 @@ export default function Book() {
         } else {
             if(thisStreak % 3 == 0 && correctStreak != 0 && !missed) {
                 setHintCounter(hintCounter + 2)
-                // aparece card com pontuacao final , premio e botao para jogar novamente
             }
             pickNewArticle()
             setRoundCount(roundCount + 1)
@@ -150,7 +147,6 @@ export default function Book() {
         }
       }
 
-    // if current article != undefined  gogogo
     return (
         <div className="all-screen-div">
             <RewardCard rewardText={rewardText} score={score}/>

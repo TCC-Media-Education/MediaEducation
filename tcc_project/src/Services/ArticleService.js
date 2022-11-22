@@ -12,8 +12,6 @@ export class ArticleService {
 
     constructor() {}
 
-    
-
     async getArticles() {
         var articles = Article
         await get(child(dbRef, "Articles")).then((allArticles) => {

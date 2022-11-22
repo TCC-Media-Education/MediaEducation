@@ -3,7 +3,7 @@
         "name":"Fumar Faz Bem a Saúde",
         "source":"www.qualicorp.com.br",
         "date":"10/10/2011",
-        "text":"Fumar é bom a saúde desde que seja feito moderadamente com 18 ou mais anos.",
+        "text":"Fumar é bom para saúde desde que seja feito moderadamente e ter idade a idade mínima de 18 anos.",
         "image":"",
         "fakeNews":true,
         "reason":"Fumar faz mal a saúde, especialmente para crianças. Adultos também podem ter doenças se fumarem demais."
@@ -12,16 +12,16 @@
         "name":"Faça Exercício Regularmente.",
         "source":"www.fpcardiologia.pt",
         "date":"28/02/2012",
-        "text":"Exercício é muito importante para a saúde. Diminui riscos de doenças e deixa a pessoa mais forte.",
+        "text":"Fazer exercícios físicos é muito importante para a saúde. Isto diminui riscos de doenças e deixa a pessoa mais forte.",
         "image":"exercicio.jpg",
         "fakeNews":false,
-        "reason":"Exercício físico diminui stress, riscos de doenças, deixa a pessoa mais forte e etc."
+        "reason":"Exercícios físicos diminuem estresse, riscos de doenças e deixa as pessoas mais saudáveis."
     },
     {
         "name":"Porto Alegre terá inverno com Frio e Neve.",
         "source":"www.climatempo.com.br",
         "date":"08/10/2022",
-        "text":"Pela primeira vez, está previsto neve em Porto Alegre no inverno desse ano.",
+        "text":"A previsão do tempo avisa que vai nevar em Porto Alegre no inverno.",
         "image":"bonecoDeNeve.jpg",
         "fakeNews":true,
         "reason":"Porto Alegre nunca tem previsão de neve."
@@ -30,19 +30,19 @@
         "name":"Refrigerante Dá Energia!",
         "source":"brasilescola.uol.com.br",
         "date":"18/09/2018",
-        "text":"Refrigerante dá energia para tudo! Esporte, exercício físico e deixa as pessoas bem mais inteligentes.",
+        "text":"Beber bastante refrigerante deixa as pessoas bem mais inteligentes.",
         "image":"",
         "fakeNews":true,
-        "reason":"Refrigerante em excesso não dá energia e dá problemas de saúde como obesidade."
+        "reason":"Refrigerante em excesso dá problemas de saúde, como exemplo a obesidade."
     },
     {
         "name":"Dormir demais faz crescer mais",
         "source":"www.minhavida.com.br",
         "date":"17/08/2020",
-        "text":"Se dormir ajuda a crescer então adivinha só dormir o tempo inteiro. Durma o máximo que puder se quiser crescer o suficiente.",
+        "text":"Se dormir ajuda a crescer! Então devemos dormir o máximo possível se quisermos ser bem altos.",
         "image":"",
         "fakeNews":true,
-        "reason":"Dormir ajuda a crescer mas não em excesso. Dormir demais pode dar problemas como depressão."
+        "reason":"Dormir ajuda a crescer. Porém dormir demais não é saudável."
     },
     {
         "name":"Você só precisa escovar os dentes uma vez por dia",
@@ -51,7 +51,7 @@
         "text":"Escovar os dentes uma vez por dia é o suficiente para manter a saúde da boca.",
         "image":"",
         "fakeNews":true,
-        "reason":"É recomendado que se escove os dentes 3 vezes ao dia."
+        "reason":"É recomendado que se escove após cada refeição."
     },
     {
         "name":"Comer frituras faz bem a saude",
@@ -60,7 +60,7 @@
         "text":"Comer frituras faz bem a saúde.",
         "image":"",
         "fakeNews":true,
-        "reason":"Devemos evitar frituras sempre que possível."
+        "reason":"É recomendado evitar comer frituras."
     },
     {
         "name":"Quanto mais doces eu como mais saudável ficam meus dentes",
@@ -69,13 +69,13 @@
         "text":"Quanto mais doces eu como mais saudável ficam meus dentes.",
         "image":"",
         "fakeNews":true,
-        "reason":"Alimentos que contém açucar fazem mal para os dentes."
+        "reason":"Alimentos que contém açúcar fazem mal para os dentes."
     },
     {
         "name":"Jogar video game antes de dormir faz bem e não prejudica o sono",
         "source":"www.minhavida.com.br",
         "date":"17/08/2020",
-        "text":"Jogar video game antes de dormir faz bem e não prejudica o sono.",
+        "text":"Jogar videogame antes de dormir faz bem e não prejudica o sono.",
         "image":"",
         "fakeNews":true,
         "reason":"O ideal é parar com as telas pelo menos 30 minutos antes de dormir."
@@ -87,6 +87,60 @@
         "text":"Se você estiver gripado deve ir a aula com máscara.",
         "image":"",
         "fakeNews":false,
-        "reason":"A máscara sempre ajuda a conter os vírus que são espalhados pelo ar, em países como o Japão é comum o uso de máscara quando se está gripado."
+        "reason":"A máscara sempre ajuda a conter os vírus que são espalhados pelo ar, em diversos paises é comum o uso de máscara quando se está gripado."
+    },
+    {
+        "name":"Uma atitude saudável e que ajuda a dormir bem é ler livro em papel.",
+        "source":"www.minhavida.com.br",
+        "date":"17/08/2020",
+        "text":"Uma atitude saudável e que ajuda a dormir bem é ler livro em papel.",
+        "image":"",
+        "fakeNews":false,
+        "reason":"Ajuda você a ter menos estímulos luminosos e desacelerar para dormir bem."
+    }, 
+    {
+        "name":"Celular e direção não combinam.",
+        "source":"www.minhavida.com.br",
+        "date":"17/08/2020",
+        "text":"Celular e direção não combinam.",
+        "image":"",
+        "fakeNews":false,
+        "reason":"Muitos acidentes acontecem por causa da distração do motorista usando celular."
+    },
+    {
+        "name":"Muito cuidado ao conversar com pessoas nas redes socias ou jogos online. Não fale nada da sua vida, endereço ou informações que possam colocar você ou sua família em perigo.",
+        "source":"www.minhavida.com.br",
+        "date":"17/08/2020",
+        "text":"Muito cuidado ao conversar com pessoas nas redes socias ou jogos online. Não fale nada da sua vida, endereço ou informações que possam colocar você ou sua família em perigo.",
+        "image":"",
+        "fakeNews":false,
+        "reason":"Nas redes existem pessoas ruins buscando fazer mal para outras pessoas. Nunca forneça informações sem antes de perguntar a seus pais."
+    },
+    {
+        "name":"As fake news não fazem mal a ninguém. São apenas informações divertidas.",
+        "source":"www.minhavida.com.br",
+        "date":"17/08/2020",
+        "text":"As fake news não fazem mal a ninguém. São apenas informações divertidas.",
+        "image":"",
+        "fakeNews":true,
+        "reason":"Toda fake news é ruim pois são mentiras."
+    },
+    {
+        "name":"Se eu esquecer meu computador logado nada de ruim vai acontecer.",
+        "source":"www.minhavida.com.br",
+        "date":"17/08/2020",
+        "text":"Se eu esquecer meu computador logado nada de ruim vai acontecer.",
+        "image":"",
+        "fakeNews":true,
+        "reason":"Falso. Alguém pode usar os aplicativos, email e tudo mais como se fosse você e fazer coisas ruins."
+    }, 
+    {
+        "name":"Escutar música com volume alto e usando fones de ouvido vai prejudicar sua saúde.",
+        "source":"www.minhavida.com.br",
+        "date":"17/08/2020",
+        "text":"Escutar música com volume alto e usando fones de ouvido vai prejudicar sua saúde.",
+        "image":"",
+        "fakeNews":true,
+        "reason":"Com o tempo você poderá ter problemas de audição."
     }
 ]
